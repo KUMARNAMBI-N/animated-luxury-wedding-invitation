@@ -1,0 +1,55 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle Glow Filter -->
+  <defs>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D1" />
+      <stop offset="40%" stop-color="#DFBD79" />
+      <stop offset="70%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#8C6627" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0710" />
+      <stop offset="100%" stop-color="#1A0207" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Shield -->
+  <rect x="8" y="8" width="104" height="104" rx="28" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="1.8" />
+  
+  <!-- Inner Delicate Hairline Border -->
+  <rect x="15" y="15" width="90" height="90" rx="22" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.6" stroke-dasharray="3 3" />
+
+  <!-- Four Ornate Corner Accents -->
+  <circle cx="15" cy="15" r="2.5" fill="url(#goldGrad)" />
+  <circle cx="105" cy="15" r="2.5" fill="url(#goldGrad)" />
+  <circle cx="15" cy="105" r="2.5" fill="url(#goldGrad)" />
+  <circle cx="105" cy="105" r="2.5" fill="url(#goldGrad)" />
+
+  <!-- Central Crest: Interlocking BC Monogram -->
+  <g transform="translate(60, 52) scale(0.92)" filter="url(#goldGlow)">
+    <!-- Crown / Tiara Ornament on top -->
+    <path d="M-14 -22 L-10 -15 L0 -24 L10 -15 L14 -22 L11 -12 L-11 -12 Z" fill="url(#goldGrad)" />
+    <circle cx="0" cy="-26" r="2" fill="url(#goldGrad)" />
+    <circle cx="-14" cy="-24" r="1.5" fill="url(#goldGrad)" />
+    <circle cx="14" cy="-24" r="1.5" fill="url(#goldGrad)" />
+
+    <!-- Letter B -->
+    <path d="M-15 -6 H-4 C4 -6 7 -2 7 2 C7 5 5 7 2 8 C6 9 8 12 8 17 C8 23 4 27 -5 27 H-15 V-6 Z M-9 0 V7 H-4 C-1 7 1 6 1 3.5 C1 1 -1 0 -4 0 H-9 Z M-9 13 V21 H-4 C0 21 2 19.5 2 17 C2 14.5 0 13 -4 13 H-9 Z" fill="url(#goldGrad)" />
+
+    <!-- Letter C intertwined -->
+    <path d="M12 2 C10 -3 5 -6 -1 -6 C-9 -6 -15 0 -15 10 C-15 20 -9 26 0 26 C6 26 11 23 13 18 L7 16 C6 18 3 20 0 20 C-5 20 -9 16 -9 10 C-9 4 -5 0 0 0 C4 0 7 2 8 4 L12 2 Z" fill="url(#goldGrad)" opacity="0.85" />
+  </g>
+
+  <!-- Beyond Cards Subtitle -->
+  <text x="60" y="93" text-anchor="middle" font-family="'Cinzel', serif" font-size="7.5" font-weight="600" fill="url(#goldGrad)" letter-spacing="3.2">
+    BEYOND CARDS
+  </text>
+  <text x="60" y="101" text-anchor="middle" font-family="'Helvetica World', sans-serif" font-size="4.5" font-weight="300" fill="#DFBD79" opacity="0.75" letter-spacing="1.8">
+    LUXURY INVITATIONS
+  </text>
+</svg>
+
