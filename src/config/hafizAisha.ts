@@ -1,7 +1,7 @@
 import { WeddingConfig } from '@/types/wedding';
 
 /**
- * Wedding Configuration for Hafiz & Aisha
+ * Wedding Configuration for A & A
  * Brand: Beyond Cards
  *
  * All couple-specific details, wedding dates, venue, contact information,
@@ -9,15 +9,15 @@ import { WeddingConfig } from '@/types/wedding';
  */
 export const hafizAishaConfig: WeddingConfig = {
   id: 'hafiz-aisha',
-  pageTitle: 'Hafiz & Aisha – Royal Wedding Invitation | Beyond Cards',
+  pageTitle: 'A & A – Royal Wedding Invitation | Beyond Cards',
   metaDescription:
-    'In the name of Allah, the Most Gracious, the Most Merciful. We cordially invite you to celebrate the wedding union of Hafiz and Aisha.',
+    'In the name of Allah, the Most Gracious, the Most Merciful. We cordially invite you to celebrate the wedding union of A and A.',
 
   // Couple Names
   couple: {
-    groom: 'Hafiz',
-    bride: 'Aisha',
-    formattedNames: 'Hafiz & Aisha',
+    groom: 'A',
+    bride: 'A',
+    formattedNames: 'A & A',
   },
 
   // Beyond Cards Branding
@@ -51,7 +51,7 @@ export const hafizAishaConfig: WeddingConfig = {
   rsvp: {
     deadlineText: 'RSVP details and deadline to be announced soon',
     contactPhone: '+919999999999', // Configurable contact phone
-    whatsappDefaultMessage: 'Salam! We received the wedding invitation for Hafiz & Aisha.',
+    whatsappDefaultMessage: 'Salam! We received the wedding invitation for A & A.',
   },
 
   // Wedding & Story Messages
@@ -93,7 +93,7 @@ export const hafizAishaConfig: WeddingConfig = {
 
   // Ambient Music
   music: {
-    title: 'Hafiz & Aisha Royal Wedding Theme',
+    title: 'A & A Royal Wedding Theme',
   },
 };
 

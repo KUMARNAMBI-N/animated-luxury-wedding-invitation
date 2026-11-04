@@ -52,7 +52,7 @@ export const WeddingProvider: React.FC<{ children: React.ReactNode }> = ({ child
   };
 
   const availableCouples = [
-    { id: 'hafiz-aisha' as const, name: 'Hafiz & Aisha', brand: 'Beyond Cards' },
+    { id: 'hafiz-aisha' as const, name: 'A & A', brand: 'Beyond Cards' },
     { id: 'anzar-fathima' as const, name: 'Anzar & Fathima', brand: 'Beyond Cards' },
   ];
 

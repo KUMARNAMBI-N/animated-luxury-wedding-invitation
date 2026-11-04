@@ -28,7 +28,7 @@ const InvitationApp: React.FC = () => {
 
       {/* 
         Independent Invitation Switcher Pill:
-        Enables seamless switching between Hafiz & Aisha (default) and Anzar & Fathima
+        Enables seamless switching between A & A (default) and Anzar & Fathima
       */}
       <div className="fixed top-4 right-4 z-40">
         <div className="relative">
